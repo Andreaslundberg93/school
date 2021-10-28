@@ -1,10 +1,12 @@
 .d-flex{ display: flex;}
+.d-none{ display: none;}
 
 
-
+/*Flex settings*/
 .flex-row { flex-direction: row; }
 .flex-column { flex-direction: column; }
 .flex-grow{ flex-grow: 1; }
+.flex-row-reverse { flex-direction: row-reverse; }
 
 /* Settings to align and justify the items/elements on the page */
 .justify-content-between { justify-content: space-between; }
