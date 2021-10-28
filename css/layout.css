@@ -8,6 +8,15 @@
 /* Position settings */
 .position-relative { position: relative !important; } 
 .position-absolute { position: absolute !important; }
+.overflow-hidden { overflow: hidden;}
+.centerXY { /* Used in position absolute to center the elements/items */
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
 
 /* Margin settings */
 .mr-auto, .mx-auto { margin-right: auto; } /* Centers the margin outside of the div */
@@ -47,6 +56,7 @@
 
 /* Typography setting */
 .text-decoration-none { text-decoration: none; }
+.text-center { text-align: center;}
 
 .text-size-xxs { font-size: var(--display-xxs); }
 .text-size-xs { font-size: var(--display-xs); }
@@ -82,3 +92,19 @@ nav div a:not(:first-child) {margin-left: var(--distance-12);}
 
 /*Image settings*/
 .logo-width {max-width: 13rem;}
+
+/*Slideshow settings*/
+.slider-width{ width: 400%;} /*100% per image*/
+.slider-container{ width: 25%;} /*Display first of 4 images*/
+.slider-image{ width: 100%; object-fit: cover;}
+/* .slider-animation {animation: 30s slider-keyframes infinite;} */
+
+@keyframes slider-keyframes { /* Makes the images rotate between eachother forwards and back */
+    0% { left: 0%; } /* Display image 1 */
+    15% { left: -100%; } /* Time diff to fully display image 2 */
+    30% { left: -200%; } /* Time diff to fully display image 3 */
+    45% { left: -300%; } /* Time diff to fully display image 4 */
+    60% { left: -200%; } /* Time diff to fully display image 3 */
+    75% { left: -100%; } /* Time diff to fully display image 2 */
+    100% { left: 0%; } /* Time diff to fully display image 1 */
+}
