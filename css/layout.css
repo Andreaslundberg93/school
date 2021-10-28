@@ -1,1 +1,21 @@
+
+/* Height settings */
 .bar-height{ height: 0.3rem;}
+
+/* Width settings */
+.max-width{max-width: 192rem;}
+
+/* Margin settings */
+.mr-auto, .mx-auto { margin-right: auto; } /* Centers the margin outside of the div */
+.ml-auto, .mx-auto { margin-left: auto; }
+
+/* Padding settings. We use the variables we created earlier to set the distance */
+.p-4 { padding: var(--distance-4); } 
+.p-5 { padding: var(--distance-5); } 
+.p-6 { padding: var(--distance-6); } 
+.p-8 { padding: var(--distance-8); }
+.p-12 { padding: var(--distance-12); }
+.p-15 { padding: var(--distance-15); }
+
+/*Image settings*/
+.logo-width {max-width: 13rem;}
