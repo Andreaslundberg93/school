@@ -60,7 +60,7 @@
     --border-sm: .2rem solid var(--color-light); /* Equivalent to 2 pixels */
     --border-lg: .4rem solid var(--color-white); /* Equivalent to 4 pixels */
 
-    --border-radius-sm: .25rem; /* Used to make rounded edges */
+    --border-radius-sm: 0.25rem; /* Used to make rounded edges */
     --border-success: .2rem solid var(--border-color-success); 
     --border-transparent: .1 solid var(--color-transparent); /* Makes a border invisible */
 

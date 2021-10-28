@@ -5,6 +5,10 @@
 /* Width settings */
 .max-width{max-width: 192rem;}
 
+/* Position settings */
+.position-relative { position: relative !important; } 
+.position-absolute { position: absolute !important; }
+
 /* Margin settings */
 .mr-auto, .mx-auto { margin-right: auto; } /* Centers the margin outside of the div */
 .ml-auto, .mx-auto { margin-left: auto; }
@@ -39,6 +43,14 @@
 /* Typography setting */
 .text-decoration-none { text-decoration: none; }
 
+.text-size-xxs { font-size: var(--display-xxs); }
+.text-size-xs { font-size: var(--display-xs); }
+.text-size-sm { font-size: var(--display-sm); }
+.text-size-md { font-size: var(--display-md); }
+.text-size-lg { font-size: var(--display-lg); }
+.text-size-xl { font-size: var(--display-xl); }
+.text-size-xxl { font-size: var(--display-xxl); } 
+
 .lh-sm { line-height: var(--line-height-sm); }
 .lh-md { line-height: var(--line-height-md); }
 .lh-lg { line-height: var(--line-height-lg); }
@@ -51,6 +63,16 @@
 
 /*Button settings*/
 nav div a:not(:first-child) {margin-left: var(--distance-12);}
+.icon-badge { 
+    top: -8px;
+    right: -8px;
+    padding: var(--distance-1) var(--distance-3);
+}
+
+/*Border settings*/
+.border-small-white{border: var(--border-xs-white); }
+.border-radius { border-radius: var(--border-radius-sm); }
+
 
 /*Image settings*/
 .logo-width {max-width: 13rem;}
