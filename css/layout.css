@@ -60,7 +60,7 @@
 /* Typography setting */
 .text-decoration-none { text-decoration: none; }
 .text-center { text-align: center;}
-
+.text-uppercase { text-transform: uppercase;}
 .text-size-xxs { font-size: var(--display-xxs); }
 .text-size-xs { font-size: var(--display-xs); }
 .text-size-sm { font-size: var(--display-sm); }
@@ -94,6 +94,7 @@ nav div a:not(:first-child) {margin-left: var(--distance-12);}
 .border-radius { border-radius: var(--border-radius-sm); }
 .border-bottom-xs { border-bottom: var(--border-xs);}
 .border-sm{ border: var(--border-sm);}
+.border-transparent {border: var(--border-transparent);}
 
 
 /*Image settings*/
