@@ -16,8 +16,6 @@
 }
 
 
-
-
 /* Margin settings */
 .mr-auto, .mx-auto { margin-right: auto; } /* Centers the margin outside of the div */
 .ml-auto, .mx-auto { margin-left: auto; }
@@ -54,6 +52,9 @@
 .p-12 { padding: var(--distance-12); }
 .p-15 { padding: var(--distance-15); }
 
+.pr-12, .px-12 { padding-right: var(--distance-12); }
+.pl-12, .px-12 { padding-left: var(--distance-12); }
+
 /* Typography setting */
 .text-decoration-none { text-decoration: none; }
 .text-center { text-align: center;}
@@ -73,8 +74,10 @@
 /* Circle setting*/
 .circle {border-radius: 100%;}
 
+
 /*Shadow settings*/
 .shadow-sm{ box-shadow:var(--shadow-small-light) ;}
+.shadow-lg{ box-shadow: var(--shadow-large-light);}
 
 /*Button settings*/
 nav div a:not(:first-child) {margin-left: var(--distance-12);}
@@ -88,6 +91,7 @@ nav div a:not(:first-child) {margin-left: var(--distance-12);}
 .border-small-white{border: var(--border-xs-white); }
 .border-radius { border-radius: var(--border-radius-sm); }
 .border-bottom-xs { border-bottom: var(--border-xs);}
+.border-sm{ border: var(--border-sm);}
 
 
 /*Image settings*/
@@ -108,3 +112,11 @@ nav div a:not(:first-child) {margin-left: var(--distance-12);}
     75% { left: -100%; } /* Time diff to fully display image 2 */
     100% { left: 0%; } /* Time diff to fully display image 1 */
 }
+
+/*Features settings*/
+.f-width { max-width: 33%;}
+
+
+/*Icon settings*/
+.icon-feature{ width: 7.6rem; height: 7.6rem; padding: 0.375rem;}
+.icon-circle{ width: 6.2rem; height: 6.2rem; line-height: 6rem;}
