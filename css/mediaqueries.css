@@ -27,3 +27,7 @@
     .heading-xxs-width { width: 100% !important; }
     .h1-sm { font-size: var(--distance-12);}
 }
+
+@media only screen and (min-width: 68.75em) { /* 1100px/16px = 68.75em */
+    .image-xl-width{width: 150% !important;}
+}
